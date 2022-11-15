@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&display=swap');
 
+/* background color for all pages(TBD) */
 html {background-color: antiquewhite}
 
 h1 {
@@ -111,3 +112,114 @@ img {
     border-radius: 2%;
     transition: all 0.3s ease 0s;
   }
+
+  /*arvins code for events page */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&display=swap');
+
+html {background-color: antiquewhite}
+
+.event-container {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-container h3.year {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event {
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left {
+    background: #219EBC;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 40px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.event .event-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color: #218bbb;
+    text-transform: uppercase;
+}
+
+.event .event-right .event-time {
+    background: #fff8ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+}
+
+.event .event-right .event-time img {
+    height: 20px;
+    padding-right: 8px;
+}
+
+@media (max-width: 550px) {
+    .event {
+        flex-direction: column;
+    }
+
+    .event .event-left {
+        padding: 0; 
+        border-radius: 8px 8px 0 0;
+    }
+    
+    .event .event-left .event-date .date, .event .event-left .event-date .month {
+        display: inline-block;
+        font-size: 24px;
+
+    }
+
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+}
+
+/* mikes code for aboutus page */
+html {background-color: antiquewhite}
+
+.abuh1 {
+    font-family:'Press Start 2P', cursive;
+    text-align:center;
+}
+
+hr.class-2 {
+    border-top: 3px double #8c8b8b;
+}
+

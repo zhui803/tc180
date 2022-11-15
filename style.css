@@ -1,3 +1,5 @@
+/*chloes code css*/
+
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&display=swap');
 
@@ -13,8 +15,8 @@ p{
 /* nav bar */
 li, a, button{
     font-family: 'Press Start 2P', cursive;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 20px; 
     color:#023047;
     text-decoration: none;
 }
@@ -24,7 +26,7 @@ nav {
     justify-content: center;
     /*syntax space-between doesn't work here*/
     align-items: center;
-    padding: 30px, 10%;
+    padding: 30px, 10%; 
     background-color: rgba(251, 133, 0, 0.5);
     /* opacity: 0.5; */
     position: sticky;

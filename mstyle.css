@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&display=swap');
+
+html {background-color: antiquewhite}
+
+h1 {
+    font-family:'Press Start 2P', cursive;
+    text-align:center;
+}
+
+

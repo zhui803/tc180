@@ -8,4 +8,8 @@ h1 {
     text-align:center;
 }
 
+hr.class-2 {
+    border-top: 3px double #8c8b8b;
+}
+
 

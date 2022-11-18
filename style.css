@@ -267,9 +267,18 @@ hr.class-2 {
     border-top: 3px double #8c8b8b;
 }
 
-.purpose {
-    background-color: green;
+.purpose h2{
+    background-color: lightblue;
 }
+
+.purpose {
+    font-family:'Press Start 2P', cursive;
+    text-align:center;
+}
+
+
+
+
 
 
 

@@ -255,7 +255,7 @@ html {background-color: antiquewhite}
     }
 }
 
-/* mikes code for aboutus page */
+/* About us page */
 html {background-color: antiquewhite}
 
 .abuh1 {
@@ -266,4 +266,10 @@ html {background-color: antiquewhite}
 hr.class-2 {
     border-top: 3px double #8c8b8b;
 }
+
+.purpose {
+    background-color: green;
+}
+
+
 

@@ -62,26 +62,27 @@ button:hover{
     background-color: #ffb703;
 }
 
-/* team page */
-h1{
+/* chloes codes for team page */
+h1.meetTeam{
     font-family:'Press Start 2P', cursive;
     /* display: inline-block; */
     text-align: center;
     color: #219ebc;
+    padding-top: 20px;
 }
 
-h2{
+h2.teamTitle{
     font-family:'Press Start 2P', cursive;
     font-size: 20px;
     text-align: center;
+    padding: 20px;
 }
 
-h3{
-    /* font-family:'Press Start 2P', cursive; */
+ h3.positionName{
     text-align: center;
-}
+ }
 
-img {
+/* img {
 	margin: 0px 60px 8px;
     width: 100px;
     height: 100px;
@@ -96,8 +97,51 @@ img {
     position: relative;
     width: 200px;
     height: 300px;
-  }
+  } */
 
+  .cards {
+    /* Add shadows to create the "card" effect */
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); */
+    /* grid-gap: 20px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+} 
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* box-shadow: 0 4px 8px 0 #ffb703;  */
+    transition: 0.3s; 
+    margin-left: 8px;
+
+    box-sizing: content-box;
+    width: 100%;
+    border: dotted 3px;
+    margin: 2px;
+    padding: 25px;
+}
+
+.card {
+    display: inline-grid;
+    grid-template-rows: max-content 200px 1fr;
+    padding: 2px 16px;
+}
+
+.card img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+  
+  /* id='president' cant be selected yet(to be fixed) */
+  /* #article[id^='president']:hover{
+    box-shadow: 8px 0px 16px 0 rgb(247, 4, 4);
+} */
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
   div:not(:last-child) {
     margin-right: 40px;
   }
@@ -107,7 +151,7 @@ img {
     margin-right: 20px;
   } */
 
-  .teamMemContainer:hover{
+  .card:hover{
     box-shadow: 5px 5px 5px black;
     border-radius: 2%;
     transition: all 0.3s ease 0s;

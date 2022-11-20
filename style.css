@@ -79,7 +79,18 @@ h2.teamTitle{
 }
 
  h3.positionName{
+    text-align: center; 
+    box-sizing: content-box;
+    height: 5px;
+ }
+
+h4.memName{
+    display: inline;
+    box-sizing: content-box;
     text-align: center;
+        /* width: 2px;
+        height: 1px; */
+    /* font-size: medium; */
  }
 
 /* img {
@@ -99,44 +110,49 @@ h2.teamTitle{
     height: 300px;
   } */
 
-  .cards {
+  /* .cards { */
     /* Add shadows to create the "card" effect */
     /* display: grid; */
     /* grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); */
     /* grid-gap: 20px; */
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-} 
+/* }  */
 
 .cards{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    /* box-shadow: 0 4px 8px 0 #ffb703;  */
     transition: 0.3s; 
-    margin-left: 8px;
-
     box-sizing: content-box;
     width: 100%;
-    border: dotted 3px;
+    border: thin dashed;
     margin: 2px;
     padding: 25px;
+
 }
 
 .card {
     display: inline-grid;
-    grid-template-rows: max-content 200px 1fr;
+    /* grid-template-rows: max-content 200px 1fr; */
+    grid-template-rows: auto minmax(10px, 60px);
     padding: 2px 16px;
+    align-content: space-around;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .card img {
-    object-fit: cover;
+
+    text-align: center;
     border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+    /* max-height instead of max-width has to be set to 100% */
+    object-fit: cover;
+    margin: auto;  
 }
   
-  /* id='president' cant be selected yet(to be fixed) */
-  /* #article[id^='president']:hover{
-    box-shadow: 8px 0px 16px 0 rgb(247, 4, 4);
-} */
 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
